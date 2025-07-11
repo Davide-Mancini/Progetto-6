@@ -1,0 +1,7 @@
+.col:hover {
+  transform: scale(1.04);
+  transition: 1s;
+}
+nav {
+  background-color: red !important;
+}
