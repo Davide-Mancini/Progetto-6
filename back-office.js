@@ -116,3 +116,7 @@ const modificaProdotto = function () {
   }
 };
 modificaProdotto();
+const resetButton = document.getElementById("buttonSi");
+resetButton.addEventListener("click", () => {
+  productForm.reset();
+});

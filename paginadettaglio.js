@@ -45,7 +45,198 @@ fetch(endpoint + "/" + productId, {
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+       Schermo
+
+Risoluzione
+
+1920 x 1080 Pixel
+
+Touchscreen
+
+No
+
+Frequenza frame
+
+60 Hz
+
+Diagonale schermo (pollici)
+
+15.6 "
+
+Rapporto immagine
+
+16:9
+
+Tipo di schermo
+
+WLED
+
+Caratteristiche schermo
+
+Schermo antiriflesso
+
+RAM
+
+Dimensione memoria RAM
+
+16 GB
+
+Memoria massima supportata
+
+16 GB
+
+Processore
+
+Processore
+
+Ryzen 5 7520U
+
+Marca processore
+
+AMD
+
+Modello di processore
+
+Ryzen™ 5
+
+Velocità processore
+
+2.8 GHz
+
+Velocità processore con turbo
+
+4.3 GHz
+
+Tipo di memoria cache
+
+Cache di terzo livello (MB): 4
+
+Chipset
+
+AMD, SoC
+
+NPU (Neural Processing Unit)
+
+TOPS totali (Tera operatori al secondo)
+
+0
+
+Scheda grafica
+
+scheda grafica
+
+Radeon™ Onboard Graphics
+
+Graphics card model
+
+AMD Radeon
+
+Produttore del chipset grafico
+
+AMD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mostra tutti i dettagli
+
+Sicurezza generale del prodotto
+Sicurezza generale del prodotto
+
+GTIN
+
+0198701804307
+
+Tipo di prodotto
+
+NOTEBOOK
+
+
       </div>
     </div>
   </div>
@@ -57,8 +248,7 @@ fetch(endpoint + "/" + productId, {
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+        DISPLAY FHD 
     </div>
   </div>
 </div>

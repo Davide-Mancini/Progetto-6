@@ -81,6 +81,49 @@
         <div class="row justify-content-center my-4">
           <div class="col col-12 col-md-6">
             <form id="product-form">
+              <div
+                class="modal fade"
+                id="reset"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+                data-bs-dismiss="modal"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="reset">
+                        SEI SICURO DI VOLER RESETTARE?
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      L'operazione cancellera i valori nei campi input
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        NO
+                      </button>
+                      <button
+                        type="reset"
+                        class="btn btn-primary"
+                        id="buttonSi"
+                      >
+                        SI
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="mb-3">
                 <label for="name" class="form-label">Nome prodotto</label>
                 <input type="text" class="form-control" id="name" required />
@@ -120,13 +163,26 @@
                 <button
                   onclick="modificaProdotto()"
                   class="btn btn-warning px-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
                 >
                   MODIFICA
                 </button>
-                <button onclick="eliminaProdotto()" class="btn btn-danger px-5">
+                <button
+                  onclick="eliminaProdotto()"
+                  class="btn btn-danger px-5"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
                   ELIMINA
                 </button>
-                <button type="reset" class="btn btn-secondary px-5" id="reset">
+                <button
+                  type="button"
+                  class="btn btn-secondary px-5"
+                  id="reset"
+                  data-bs-toggle="modal"
+                  data-bs-target="#reset"
+                >
                   RESET
                 </button>
               </div>

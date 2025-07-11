@@ -19,6 +19,7 @@ const getProduct = function () {
     .then((product) => {
       console.log(product);
       product.forEach((pc, i) => {
+        document.getElementById("spinner-container").classList.add("d-none");
         const row = document.getElementById("row");
         row.innerHTML += `<div class="col col-12 col-md-6 col-lg-4 d-flex" id='col' >
       <div class="card g-1 " >

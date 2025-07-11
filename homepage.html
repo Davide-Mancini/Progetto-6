@@ -82,7 +82,87 @@
       </nav>
     </header>
     <main>
-      <h1 class="text-center mb-5">SCOPRI I NOSTRI FANTASTICI COMPUTER!</h1>
+      <div class="container">
+        <div class="text-center" id="spinner-container">
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+      <div class="px-4 py-5 my-5 text-center">
+        <div
+          id="carouselExampleInterval"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner d-flex justify-content-around">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img
+                src="https://shop.akinformatica.it/wp-content/uploads/2025/01/1024-5-1.png"
+                class="d-block w-50"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_157863098?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402"
+                class="d-block w-50"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_151084384?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402"
+                class="d-block w-50"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h1 class="display-5 fw-bold text-danger">
+          Scopri tutti i nostri prodotti!
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Troverai tutto quello che stai cercando, riguardo il mondo dei PC.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button
+              type="button"
+              class="btn btn-outline-danger btn-lg px-4 gap-3"
+            >
+              PC Portatili
+            </button>
+            <button type="button" class="btn btn-outline-danger btn-lg px-4">
+              PC Fissi
+            </button>
+            <button type="button" class="btn btn-outline-danger btn-lg px-4">
+              Tablet
+            </button>
+            <button type="button" class="btn btn-outline-danger btn-lg px-4">
+              Monitor
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div class="container p-5">
         <div class="row g-1" id="row"></div>
       </div>
