@@ -15,6 +15,7 @@ fetch(endpoint + "/" + productId, {
     }
   })
   .then((dettaglipc) => {
+    document.getElementById("spinner-container").classList.add("d-none");
     console.log(dettaglipc);
     const row = document.getElementById("row");
     row.innerHTML += `<div class="col col-6 d-flex justify-content-center" >
