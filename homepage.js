@@ -20,7 +20,7 @@ const getProduct = function () {
       console.log(product);
       product.forEach((pc, i) => {
         const row = document.getElementById("row");
-        row.innerHTML += `<div class="col col-12 col-md-6 col-lg-4 d-flex" >
+        row.innerHTML += `<div class="col col-12 col-md-6 col-lg-4 d-flex" id='col' >
       <div class="card g-1 " >
   <img src="${pc.imageUrl}" class="card-img-top" alt="...">
   <div class="card-body d-flex flex-column">

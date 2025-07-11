@@ -1,7 +1,18 @@
-.col:hover {
+#col:hover {
   transform: scale(1.04);
   transition: 1s;
 }
-nav {
-  background-color: red !important;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #960039;
+  background: linear-gradient(
+    158deg,
+    rgba(150, 0, 12, 0.83) 24%,
+    rgba(0, 0, 0, 0.78) 64%
+  );
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
